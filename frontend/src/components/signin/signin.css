@@ -1,0 +1,60 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .lInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+
+  .log{
+    text-align: center;
+    margin-top: -20%;
+    margin-left: -20%;
+    font-size: 30px;
+  }
+  @font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+  .sagawala-eatery {
+    text-align: top;
+    position: absolute;
+    margin-top: -30%;
+    color: var(--white);
+    font-family: var(--font-family-helvetica-regular);
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 93px;
+    min-height: 95px;
+    white-space: nowrap;
+  }

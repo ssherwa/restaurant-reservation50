@@ -1,0 +1,33 @@
+.rectangle-18 {
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--dove-gray);
+    border-radius: 197px;
+    height: 200px;
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 20%;
+    
+  }
+  .a-hold-fee-is-requir {
+    font-size: large;
+    line-height: 33px;
+    min-height: 110px;
+    min-width: 110px;
+    text-align: center;
+    margin-top: 7%;
+ 
+  }
+
+  @font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 40;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+
+  .home-button{
+    margin-left: 30%;
+    margin-top: 20%;
+  }

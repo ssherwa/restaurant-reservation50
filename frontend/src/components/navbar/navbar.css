@@ -1,0 +1,48 @@
+.navbar{
+    /* background-color: white; */
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    justify-self: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    /* make it transparent */
+    background-color: transparent;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.istockphoto-953140058-170667a {
+    height: 1329px;
+    object-fit: cover;
+    width: 1996px;
+  }
+
+  @font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+  .sagawala-eatery {
+    color: var(--white);
+    font-family: var(--font-family-helvetica-regular);
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 93px;
+    min-height: 95px;
+    white-space: nowrap;
+  }

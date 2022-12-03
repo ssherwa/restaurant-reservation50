@@ -1,0 +1,128 @@
+.rContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  
+  .rSelect{
+    height: 40px;
+    padding: 10px;
+    
+  }
+  .checkboxgrp{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  @font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .rInput {
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rButton:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  
+  .rSelect {
+    height: 40px;
+    padding: 10px;
+  }
+  
+  .checkboxgrp {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  @font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#Date {
+    height: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+#Time {
+    height: 30px;
+    padding: 10px;
+    width: 200px;
+
+}
+
+@font-face {
+    font-family: "Helvetica-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  }
+  
+  .sagawala-eatery {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-family-helvetica-regular);
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 93px;
+    min-height: 95px;
+    white-space: nowrap;
+  }
